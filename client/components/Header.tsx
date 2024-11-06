@@ -1,5 +1,6 @@
 import * as React from "react";
 import { Button, ButtonGroup, Stack } from '@mui/material';
+import { Link } from "react-router-dom";
 
 export default function Header() {
     return (
@@ -16,8 +17,8 @@ export default function Header() {
                 window.location.href = path;
                 }}>Portfolio</Button>
             <Button variant="contained" sx={{backgroundColor: "#a2c7e5", color: "#303A2B"}}
-                onClick={() => { let path = '/contact';
-                window.location.href = path;
+                onClick={() => { 
+                    return <Link to={"/Contact"}></Link>
                 }}>Contact</Button>
             <Button variant="contained" sx={{backgroundColor: "#a2c7e5", color: "#303A2B"}}
                 onClick={() => { let path = '/resume';

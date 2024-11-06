@@ -4,7 +4,8 @@
   "description": "creating a portfolio front end using React",
   "main": "main.tsx",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "vite build"
   },
   "repository": {
     "type": "git",

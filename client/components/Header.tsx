@@ -18,7 +18,7 @@ export default function Header() {
                 }}>Portfolio</Button>
             <Button variant="contained" sx={{backgroundColor: "#a2c7e5", color: "#303A2B"}}
                 onClick={() => { 
-                    return <Link to={"/contact"}></Link>
+                    window.location.href = "/contact";
                 }}>Contact</Button>
             <Button variant="contained" sx={{backgroundColor: "#a2c7e5", color: "#303A2B"}}
                 onClick={() => { let path = '/resume';

@@ -7,6 +7,9 @@ import Contact from '../components/Contact.tsx';
 import HomePage from '../components/HomePage.tsx';
 import Resume from '../components/Resume.tsx';
 import Portfolio from '../components/Project.tsx';
+import './index.css'
+
+
 
 const router = createBrowserRouter([
     {

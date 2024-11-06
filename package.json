@@ -1,0 +1,26 @@
+{
+  "name": "reactportfoliohw",
+  "version": "1.0.0",
+  "description": "creating a portfolio front end using React",
+  "main": "main.tsx",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DevinSharp-Eflat/ReactPortfolioHW.git"
+  },
+  "author": "Devin S",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DevinSharp-Eflat/ReactPortfolioHW/issues"
+  },
+  "homepage": "https://github.com/DevinSharp-Eflat/ReactPortfolioHW#readme",
+  "dependencies": {
+    "@mui/material": "^6.1.6",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-router-dom": "^6.27.0",
+    "vite": "^5.4.10"
+  }
+}

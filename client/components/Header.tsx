@@ -7,19 +7,19 @@ export default function Header() {
         <Stack direction={"row"} spacing={20} sx={{alignContent: 'center'}}>
         <h1>Devin S.</h1>
         <ButtonGroup size="large" variant="contained" aria-label="website nav" sx={{justifyContent:  'right'}}>
-            <Button variant="contained"
+            <Button variant="contained" sx={{backgroundColor: "#C1BDDB"}}
                 onClick={() => { let path = '/';
                 window.location.href = path;
                 }}>Home</Button>
-            <Button variant="contained"
+            <Button variant="contained" sx={{backgroundColor: "#C1BDDB"}}
                 onClick={() => { let path = '/portfolio';
                 window.location.href = path;
                 }}>Portfolio</Button>
-            <Button variant="contained"
+            <Button variant="contained" sx={{backgroundColor: "#C1BDDB"}}
                 onClick={() => { let path = '/contact';
                 window.location.href = path;
                 }}>Contact</Button>
-            <Button variant="contained"
+            <Button variant="contained" sx={{backgroundColor: "#C1BDDB"}}
                 onClick={() => { let path = '/resume';
                 window.location.href = path;
                 }}>Resume</Button>

@@ -1,6 +1,12 @@
 import * as React from 'react';
 import { Button, Divider, Stack } from '@mui/material';
 import { Box, textAlign } from '@mui/system';
+import diceRoller from "../assets/DiceRoller.png";
+import empData from "../assets/employeeDatabase.png";
+import ReadMe from "../assets/ReadMeGen.png";
+import stocks from "../assets/StockSite.png";
+import vehicles from "../assets/VehicleBuilder.png";
+import weather from "../assets/WeatherAPI.png";
 
 
 //6 projects needed. Direct to github and deployed location if applicable
@@ -10,7 +16,7 @@ export default function Portfolio() {
         <>
             <h1>Portfolio</h1>
             <Stack direction={"row"} spacing={20} sx={{alignContent: 'center'}}>
-                <Box sx={{ p: 4, border: 'black', backgroundImage: '../assets/StockSite.png'}}>
+                <Box sx={{ p: 4, border: 'black', backgroundImage: {stocks}}}>
                     <h1>Search Stock Site</h1>
                     <Stack direction={"row"} spacing={20} sx={{alignContent: 'center'}}>
                         <Button variant='outlined'
@@ -22,7 +28,7 @@ export default function Portfolio() {
                     </Stack>
                 </Box>
                 
-                <Box sx={{ p: 4, border: 'black', backgroundImage: "../assets/WeatherAPI.png"}}>
+                <Box sx={{ p: 4, border: 'black', backgroundImage: { weather }}}>
                     <h1>Weather Projection</h1>
                     <Stack direction={"row"} spacing={20} sx={{alignContent: 'center'}}>
                         <Button variant='outlined'
@@ -38,7 +44,7 @@ export default function Portfolio() {
             <Stack direction={"row"} spacing={20} sx={{alignContent: 'center'}}>
                 <Box sx={{ p: 4, border: 'black'}}>
                     <h1>Employee Database</h1>
-                    <img src={"../assets/employeeDatabase.png"}/>
+                    <img src={empData}/>
                     <Stack direction={"row"} spacing={20} sx={{alignContent: 'center'}}>
                         <Button variant='outlined'
                         onClick={() => { window.location.href = "https://github.com/DevinSharp-Eflat/EmployeeDatabase";
@@ -48,7 +54,7 @@ export default function Portfolio() {
 
                 <Box sx={{ p: 4, border: 'black'}}>
                     <h1>Vehicle Builder</h1>
-                    <img src={"../assets/VehicleBuilder.png"}/>
+                    <img src={vehicles}/>
                     <Stack direction={"row"} spacing={20} sx={{alignContent: 'center'}}>
                         <Button variant='outlined'
                         onClick={() => { window.location.href = "https://github.com/DevinSharp-Eflat/VehicleBuilder";
@@ -60,7 +66,7 @@ export default function Portfolio() {
             <Stack direction={"row"} spacing={20} sx={{alignContent: 'center'}}>
                 <Box sx={{ p: 4, border: 'black'}}>
                     <h1>ReadMe Generator</h1>
-                    <img src={"../assets/ReadMeGen.png"}/>
+                    <img src={ReadMe}/>
                     <Stack direction={"row"} spacing={20} sx={{alignContent: 'center'}}>
                         <Button variant='outlined'
                         onClick={() => { window.location.href = "https://github.com/DevinSharp-Eflat/ReadMeGenerator";
@@ -70,7 +76,7 @@ export default function Portfolio() {
 
                 <Box sx={{ p: 4, border: 'black', backgroundImage: 'imageURL'}}>
                     <h1>Dice Roller</h1>
-                    <img src={"../assets/DiceRoller.png"}/>
+                    <img src={diceRoller}/>
                     <Stack direction={"row"} spacing={20} sx={{alignContent: 'center'}}>
                         <Button variant='outlined'
                         onClick={() => { window.location.href = "https://github.com/Zyndrr/RPG-Dice-Roller";

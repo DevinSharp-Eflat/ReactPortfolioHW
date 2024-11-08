@@ -16,8 +16,9 @@ export default function Portfolio() {
         <>
             <h1>Portfolio</h1>
             <Stack direction={"row"} spacing={20} sx={{alignContent: 'center'}}>
-                <Box sx={{ p: 4, border: 'black', backgroundImage: stocks}}>
+                <Box sx={{ p: 4, border: 'black'}}>
                     <h1>Search Stock Site</h1>
+                    <img src={stocks}/>
                     <Stack direction={"row"} spacing={20} sx={{alignContent: 'center'}}>
                         <Button variant='outlined'
                         onClick={() => { window.location.href = "https://github.com/DevinSharp-Eflat/SearchStockSite";
@@ -28,8 +29,9 @@ export default function Portfolio() {
                     </Stack>
                 </Box>
                 
-                <Box sx={{ p: 4, border: 'black', backgroundImage:  weather }}>
+                <Box sx={{ p: 4, border: 'black'}}>
                     <h1>Weather Projection</h1>
+                    <img src={weather}/>
                     <Stack direction={"row"} spacing={20} sx={{alignContent: 'center'}}>
                         <Button variant='outlined'
                         onClick={() => { window.location.href = "https://github.com/DevinSharp-Eflat/WeatherAPIhw"

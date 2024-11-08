@@ -1,5 +1,0 @@
-# Redirects for the Netlify deployment
-/HomePage       /
-/portfolio      /portfolio
-/contact        /contact
-/resume         /resume

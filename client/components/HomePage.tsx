@@ -1,11 +1,12 @@
 import * as React from "react";
+import homePhoto from "../assets/NeekoDevin.jpg";
 //This will be an "About me" page. Provide photo or w.e.
 
 export default function HomePage() {
     return (
         <>
             <h1>About Devin</h1>
-            <img src="./assets/Neeko on Devin.jpg" alt="Neeko on Devin"></img>
+            <img src={homePhoto} alt="Neeko on Devin"></img>
             <p>
             My name is Devin, a techy cat dad based in Eugene, Oregon. 
             I am someone who thrives on interacting with other people, 

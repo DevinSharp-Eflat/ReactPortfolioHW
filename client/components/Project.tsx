@@ -16,7 +16,7 @@ export default function Portfolio() {
         <>
             <h1>Portfolio</h1>
             <Stack direction={"row"} spacing={20} sx={{alignContent: 'center'}}>
-                <Box sx={{ p: 4, border: 'black', backgroundImage: {stocks}}}>
+                <Box sx={{ p: 4, border: 'black', backgroundImage: stocks}}>
                     <h1>Search Stock Site</h1>
                     <Stack direction={"row"} spacing={20} sx={{alignContent: 'center'}}>
                         <Button variant='outlined'
@@ -28,7 +28,7 @@ export default function Portfolio() {
                     </Stack>
                 </Box>
                 
-                <Box sx={{ p: 4, border: 'black', backgroundImage: { weather }}}>
+                <Box sx={{ p: 4, border: 'black', backgroundImage:  weather }}>
                     <h1>Weather Projection</h1>
                     <Stack direction={"row"} spacing={20} sx={{alignContent: 'center'}}>
                         <Button variant='outlined'
